@@ -2,11 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-
-@font-face {
-    font-family: "logo_font";
-    src: url("../fonts/FontsFree-Net-REZ.ttf");
-}
+@import url('https://fonts.cdnfonts.com/css/rez');
 
 * {
     width: 100%;
@@ -42,7 +38,7 @@ header {
 }
 
 header p {
-    font-family: logo_font;
+    font-family: "REZ", sans-serif;
     font-size: 40px;
     color: #808080;
     height: min-content;
